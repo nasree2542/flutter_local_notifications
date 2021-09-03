@@ -10,7 +10,9 @@ dependencies:
     sdk: flutter
   flutter_local_notifications_platform_interface: ^4.0.1
   platform: ^3.0.0
-  timezone: ^0.8.0
+  timezone: 
+    git:
+      url: https://github.com/nasree2542/timezone
 
 dev_dependencies:
   flutter_driver:
